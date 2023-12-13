@@ -1,0 +1,17 @@
+[package]
+name = "actix-forward-prefix"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix = "0.13.1"
+actix-web = "4.4.0"
+futures-util = "0.3.29"
+
+[dev-dependencies]
+actix-service = "2.0.2"
+actix-rt = "2.9.0"
+
+
